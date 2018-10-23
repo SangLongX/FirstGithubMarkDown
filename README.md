@@ -1,16 +1,4 @@
 [TOC]
-## 这是Typora风格
-
-### 第一组
-
-1. description 1
-2. description 2
-3. description 3
-
-### 第二组
-
-1. **description** 2_1
-2. *description* 2_2
 
 ## vs2015key
 
@@ -27,6 +15,30 @@ Visual Studio Enterprise 2015
 
 Key :2XNFG-KFHR8-QV3CP-3W6HT-683CH
 ```
+
+## 分组
+
+### 第一组
+
+1. description 1
+2. description 2
+3. description 3
+
+### 第二组
+
+1. **description** 2_1
+2. *description* 2_2
+
+### 第三组
+
+1. description 3_1
+
+   > - s1
+   > - s2
+
+2. description 3_2
+
+   > this is third group part 2
 
 ## mermaid测试
 
