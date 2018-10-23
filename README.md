@@ -1,4 +1,4 @@
-[toc]
+[TOC]
 ## 这是Typora风格
 
 ### 第一组
@@ -30,7 +30,8 @@ Key :2XNFG-KFHR8-QV3CP-3W6HT-683CH
 
 ## mermaid测试
 
-```mermaid
+```
+mermaid
 graph LR
 AA(AA)-->B(B)
 B-->C(C)
