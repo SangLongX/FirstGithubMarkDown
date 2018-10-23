@@ -85,6 +85,25 @@ V-->H
    SELECT * FROM USER u WHERE INSTR(u.`mobile_number`, '1830000') AND u.`birthday` BETWEEN '1990' AND '1999';
    ```
 
+4. 其他
+
+   ```json
+   {
+       "name":"张三",
+       "sex":"男",
+       "phone":"18888888888",
+       "addr":"地球村"
+   }
+   ```
+
+## 制表
+
+| 学号         | 姓名 | 学分 |
+| ------------ | ---- | ---- |
+| 201810220001 | 鸣人 | -100 |
+
+
+
 ## 测试结果（不支持的是typora风格）
 
 - github风格的markdown不支持toc
