@@ -32,19 +32,19 @@ Key :2XNFG-KFHR8-QV3CP-3W6HT-683CH
 
 ```mermaid
 graph LR
-AA(AA)-->B(B)
-B-->C(C)
-C-->H(H)
-V(V)-->D(D)
-C-->D(D)
-D-->E(E)
-D-->F(F)
-E-->G(G)
+AA(甲)-->B(乙)
+B-->C(丙)
+C-->H(辛)
+V(申)-->D(丁)
+C-->D(丁)
+D-->E(戊)
+D-->F(己)
+E-->G(庚)
 E-->F
 
-Z(Z)-->Y)
-Z-->W(W)
-Z-->V(V)
+Z(亥)-->Y(戌)
+Z-->W(酉)
+Z-->V(申)
 V-->H
 ```
 
@@ -84,3 +84,8 @@ V-->H
    # 查询1830000的手机号，且是90后的用户
    SELECT * FROM USER u WHERE INSTR(u.`mobile_number`, '1830000') AND u.`birthday` BETWEEN '1990' AND '1999';
    ```
+
+## 测试结果（不支持的是typora风格）
+
+- github风格的markdown不支持toc
+- github风格不支持绘图
