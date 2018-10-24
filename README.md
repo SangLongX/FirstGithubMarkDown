@@ -39,7 +39,7 @@ Key :2XNFG-KFHR8-QV3CP-3W6HT-683CH
 2. description 3_2
 
    > this is a link [百度链接](https://www.baidu.com)
-   > this is a pic ![能不能行](https://ibb.co/mEi4mV)
+   > this is a pic ![能不能行](https://imgur.com/WobMlLp.png)
 
 ## mermaid测试
 
