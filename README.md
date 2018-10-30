@@ -26,7 +26,7 @@ Key :2XNFG-KFHR8-QV3CP-3W6HT-683CH
 
 ### 第二组
 
-1. **description** 2_1 
+1. **description** 2_1 x^2^
 2. *description* 2_2 :happy: :cry:
 
 ### 第三组
