@@ -26,7 +26,7 @@ Key :2XNFG-KFHR8-QV3CP-3W6HT-683CH
 
 ### 第二组
 
-1. **description** 2_1 x^2^
+1. **description** 2_1 
 2. *description* 2_2 :happy: :cry:
 
 ### 第三组
@@ -142,5 +142,10 @@ cond(no)->op
 
 ## 测试结果（不支持的是typora风格）
 
-- github风格的markdown不支持toc
-- github风格不支持绘图
+### 不支持
+
+- toc
+- 绘图
+- 角标（上标、下标）
+- 数学公式（flow、mermaid）
+- 注释
