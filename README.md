@@ -20,28 +20,32 @@ Key :2XNFG-KFHR8-QV3CP-3W6HT-683CH
 
 ### 第一组
 
-1. description 1
-2. description 2
-3. description 3
+1. description 1 [^这是注释]
+2. description 2 [link][]
+3. ~~description~~ 3 H~2~O
 
 ### 第二组
 
-1. **description** 2_1
-2. *description* 2_2
+1. **description** 2_1 
+2. *description* 2_2 :happy: :cry:
 
 ### 第三组
 
 1. description 3_1
 
-   > - s1
-   > - s2
+   > - s1 
+   >   $$
+   >   f(x)=x^2
+   >   $$
+   >
+   > - s2  $lim_{x \to \infty} \ exp(-x)=0$
 
 2. description 3_2
 
    > this is a link [百度链接](https://www.baidu.com)
    > this is a pic ![能不能行](https://imgur.com/WobMlLp.png)
 
-## mermaid测试
+## 流程图测试
 
 ```mermaid
 graph LR
@@ -60,6 +64,19 @@ Z-->W(酉)
 Z-->V(申)
 V-->H
 ```
+
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
+```
+
+
 
 ## 代码块格式测试
 
@@ -116,6 +133,12 @@ V-->H
 | 201810220001 | 鸣人 | -100 |
 
 
+
+## 其他
+
+[link]: http:www.baidu.com	"这是百度"
+
+[^这是个注释]: http:www.google.com 
 
 ## 测试结果（不支持的是typora风格）
 
